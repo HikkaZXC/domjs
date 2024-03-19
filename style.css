@@ -1,0 +1,101 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+#editor {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+#note-title {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#note-text {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#save-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#save-button:hover {
+    background-color: #0056b3;
+}
+
+#clear-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#clear-button:hover {
+    background-color: #c82333;
+}
+
+#notes-list {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#notes-list a {
+    display: block;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+#notes-list a:hover {
+    background-color: #f0f0f0;
+}
